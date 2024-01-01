@@ -7,7 +7,7 @@ locals {
 
   workspace = {
     "merci-tfe" = {
-      description         = "Automation for TF cloud workspaces!"
+      description         = "Automation for TF cloud workspaces!!"
       execution_mode      = "remote"
       project_id          = module.project["merci"].id
       vcs_repo_identifier = "${var.github_organization_name}/merci-terraform-tfe"
