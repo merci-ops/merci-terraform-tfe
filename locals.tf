@@ -1,7 +1,7 @@
 locals {
   project = {
     "merci" = {
-      description = "Project for Merci"
+      description = "Project for Merci!"
     }
   }
 
